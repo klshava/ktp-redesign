@@ -294,20 +294,22 @@ section { padding: 56px 0; }
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(8,26,48,0.55) 0%, rgba(8,26,48,0.55) 40%, rgba(8,26,48,0.92) 100%);
+  background: linear-gradient(180deg, rgba(8,26,48,0.72) 0%, rgba(8,26,48,0.68) 40%, rgba(8,26,48,0.93) 100%);
 }
 .hero-content { position: relative; z-index: 2; padding-bottom: 48px; }
-.hero .eyebrow { color: var(--gold-400); }
+.hero .eyebrow { color: var(--gold-400); text-shadow: 0 2px 12px rgba(8,26,48,0.8); }
 .hero h1 {
   color: var(--white);
   font-size: clamp(2rem, 8vw, 3.4rem);
   max-width: 14ch;
+  text-shadow: 0 2px 20px rgba(8,26,48,0.55);
 }
 .hero p.lead {
-  color: rgba(255,255,255,0.88);
+  color: rgba(255,255,255,0.92);
   font-size: 1.05rem;
   max-width: 46ch;
   margin-bottom: 28px;
+  text-shadow: 0 1px 12px rgba(8,26,48,0.6);
 }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 
